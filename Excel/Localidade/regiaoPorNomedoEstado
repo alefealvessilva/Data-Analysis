@@ -1,0 +1,10 @@
+Altere o valor <Celula de Referencia> pela celula que contem o nome do Estado
+
+=SES(
+          OU(<Celula de Referencia>="Rondônia";<Celula de Referencia>="Acre";<Celula de Referencia>="Amazonas";<Celula de Referencia>="Roraima";<Celula de Referencia>="Pará";<Celula de Referencia>="Amapá";<Celula de Referencia>="Tocantins");"Região Norte";
+          OU(<Celula de Referencia>="Maranhão";<Celula de Referencia>="Piauí";<Celula de Referencia>="Ceará";<Celula de Referencia>="Rio Grande do Norte";<Celula de Referencia>="Paraíba";<Celula de Referencia>="Pernambuco";<Celula de Referencia>="Alagoas";<Celula de Referencia>="Bahia";<Celula de Referencia>="Sergipe");"Nordeste";
+          OU(<Celula de Referencia>="São Paulo";<Celula de Referencia>="Rio de Janeiro";<Celula de Referencia>="Espírito Santo";<Celula de Referencia>="Minas Gerais");"Sudeste";
+          OU(<Celula de Referencia>="Rio Grande do Sul";<Celula de Referencia>="Santa Catarina";<Celula de Referencia>="Paraná";<Celula de Referencia>="Minas Gerais");"Sul";
+          OU(<Celula de Referencia>="Distrito Federal";<Celula de Referencia>="Goiás";<Celula de Referencia>="Mato Grosso";<Celula de Referencia>="Mato Grosso do Sul");"Centro-Oeste";
+           1;""
+)
