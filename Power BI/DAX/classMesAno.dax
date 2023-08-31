@@ -1,0 +1,4 @@
+
+// Cria uma coluna personalizada para uma tabela calendario que possibilita classificar uma coluna "parente" com base nessa coluna de classificação
+
+Class_Mes_Ano = 100*'Calendário_Safra'[Ano] + 'Calendário_Safra'[Mês]
